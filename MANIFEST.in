@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_bancos *.css
+recursive-include nodux_bancos *.csv
+recursive-include nodux_bancos *.html
+recursive-include nodux_bancos *.ico
+recursive-include nodux_bancos *.js
+recursive-include nodux_bancos *.json
+recursive-include nodux_bancos *.md
+recursive-include nodux_bancos *.png
+recursive-include nodux_bancos *.py
+recursive-include nodux_bancos *.svg
+recursive-include nodux_bancos *.txt
+recursive-exclude nodux_bancos *.pyc
